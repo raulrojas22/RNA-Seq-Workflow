@@ -18,7 +18,7 @@
 #######################################################
 
 #Importar scripts a utilizar
-source scripts/check_dependence.sh
+source check_dependence.sh
 
 #######################################################
 #Solicitud de mensaje de ayuda en el script 
