@@ -8,6 +8,7 @@ Pipeline general para metología RNA-Seq
 
 **El pipeline cuenta con 5 scripts (4 en Bash y 1 en R) los cuales son:**
 
+  - [Descarga de archivos](https://github.com/raulrojas22/RNA-Seq-Workflow/blob/master/scripts/download_data.sh)
   - [Analisis de calidad](https://github.com/raulrojas22/RNA-Seq-Workflow/blob/master/scripts/analisis_calidad.sh)
   - [Trimming reads de mala calidad](https://github.com/raulrojas22/RNA-Seq-Workflow/blob/master/scripts/trimming.sh)
   - [Alineamiento de reads al genoma de referencia](https://github.com/raulrojas22/RNA-Seq-Workflow/blob/master/scripts/align_reads.sh)
@@ -16,6 +17,7 @@ Pipeline general para metología RNA-Seq
 
 **Dependencias a utilizar durante este pipeline**
 
+  - [SRA-tools](https://github.com/ncbi/sra-tools)
   - [fastqc](https://github.com/s-andrews/FastQC)
   - [multiqc](https://github.com/MultiQC/MultiQC)
   - [trimmomatic](https://github.com/usadellab/Trimmomatic)
